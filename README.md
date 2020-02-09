@@ -1,4 +1,4 @@
 Running the server
-cd into the backend directory and run yarn or npm install, then run yarn start
-Install ngrok and run ngrok http 3000 and copy the https url that looks something like this https://f7333e87.ngrok.io. This is required because WebSockets require https.
-Open app/main.js and change the SocketEndpoint at the top of the file to point to your endpoint.
+run npm install, then run npm start
+then in another terminal window run ngrok http 3000 and copy the https url that looks something like this https://f7333e87.ngrok.io. This is required because WebSockets require https.
+Open GoExpo and edit SocketClient.js to contain your ngrok url
